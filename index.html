@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Payment</title>
+  <link rel="stylesheet" href="styles/main.css">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <main>
+    <div class="content">
+      <section class="section-holder-information">  
+        <!-- BEGIN card-number --> 
+        <div>
+          <label for="card-number">Número do cartão</label>
+          <input type="text" id="card-number" class="input radius-xl">
+        </div>
+        <!-- END card-number -->
+      
+        <!-- BEGIN card-holder-name -->
+        <div>
+          <label for="holder-name">Nome do titular</label>
+          <input type="text" id="holder-name" class="input radius-xl">
+        </div>
+        <!-- END card-holder-name -->
+
+        <!-- BEGIN row -->
+        <div class="row">
+          <!-- BEGIN column -->
+          <div class="column">
+            <div>
+              <label for="card-expiring-date">Validade</label>
+              <input type="text" id="card-expiring-date" class="input radius-xl">
+            </div>
+          </div>
+          <!-- END column -->
+          <!-- BEGIN column -->
+          <div class="column">
+            <div>
+              <label for="card-security-code">Código de segurança</label>
+              <input type="text" id="card-security-code" class="input radius-xl">
+            </div>
+          </div>
+          <!-- END column -->
+        </div>
+        <!-- END row -->
+      </section>
+      <section class="section-credit-card">
+       
+        <div class="card card-bg--type-1 radius-xl shadow-xl">
+          <div class="ellipse-top"></div>
+          <div class="ellipse-bottom"></div>
+          <div class="card-name">Mastercard</div>
+          <div class="card-logo"><img src="./assets/mastercard_logo.png" alt="Logo cartão de crédito"></div>
+          <div class="card-number">6011 0009 9013 9424</div>
+          <div class="card-holder">JAIME BARROSO NEVES</div>
+          <div class="card-expiry-date">09/25</div>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

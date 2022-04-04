@@ -1,0 +1,164 @@
+:root {
+  --color-white: #FFFFFF;
+  --min-width: 360px;
+  --max-width: 1200px;
+  --body-font-family: 'Poppins', sans-serif;
+  --body-font-size: 1rem;
+  --base-padding: 1.5rem;
+  --base-border-radius: .45rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font-family);
+  font-size: var(--bs-body-font-size);
+  padding-top: 3rem;
+}
+
+main {
+  margin: 0 auto;
+  position: relative;
+  max-width: var(--max-width);
+  padding: var(--base-padding);
+  /* border: 1px solid rgba(0, 0, 0, 0.125); */
+  -webkit-border-radius: var(--base-border-radius);
+  -moz-border-radius: var(--base-border-radius);
+  border-radius: var(--base-border-radius);
+
+  /* display: flex; */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.input {
+  /* display: block; */
+  width: 100%;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  padding: .3rem;
+}
+
+.section-holder-information {
+  /* width: 500px; */
+}
+
+.section-credit-card {
+  text-align: center;
+  margin: auto 0;
+  
+  padding: 1rem 4rem;
+  /* padding: var(--base-padding); */
+}
+
+/* Card */
+
+.card {
+  position: relative;
+  width: 425px;
+  height: 270px;
+}
+
+.card-name {
+  position: absolute;
+  color: var(--color-white);
+  margin: 2.5rem 2rem;
+  font-weight: 300;
+  font-size: 16px;
+  opacity: 0.54;
+}
+
+.card-number {
+  position: absolute;
+  color: var(--color-white);
+  margin: 4.5rem 2rem;
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.card-holder {
+  position: absolute;
+  color: var(--color-white);
+  margin: 13.7rem 2rem;
+
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+}
+
+.card-expiry-date {
+  position: absolute;
+  color: var(--color-white);
+  font-weight: 300;
+  font-size: 14px;
+  margin: 14rem 22rem;
+}
+
+.card-logo {
+  position: absolute;
+  margin: 1.5rem 21rem;
+}
+
+.card.card-bg--type-1 {
+  background: -moz-linear-gradient(177.23deg, #9C2CF3 -13.49%, #3A49F9 109.75%);
+  background: -webkit-linear-gradient(177.23deg, #9C2CF3 -13.49%, #3A49F9 109.75%);
+  background: -o-linear-gradient(177.23deg, #9C2CF3 -13.49%, #3A49F9 109.75%);
+  background: -ms-linear-gradient(177.23deg, #9C2CF3 -13.49%, #3A49F9 109.75%);
+  background: linear-gradient(177.23deg, #9C2CF3 -13.49%, #3A49F9 109.75%);
+}
+
+.card.card-bg--type-2 {
+  background: -moz-linear-gradient(167.6deg, #E42C66 -9.78%, #F55B46 107.04%);
+  background: -webkit-linear-gradient(167.6deg, #E42C66 -9.78%, #F55B46 107.04%);
+  background: -o-linear-gradient(167.6deg, #E42C66 -9.78%, #F55B46 107.04%);
+  background: -ms-linear-gradient(167.6deg, #E42C66 -9.78%, #F55B46 107.04%);
+  background: linear-gradient(167.6deg, #E42C66 -9.78%, #F55B46 107.04%);
+}
+
+.ellipse-top {
+  position: absolute;
+  width: 425px;
+  height: 270px;
+  background: #000000;
+  opacity: 0.1;
+
+  border-radius: 20px;
+  clip-path: ellipse(243px 186px at 430px -70px);
+  z-index: 1;
+}
+
+.ellipse-bottom {
+  position: absolute;
+  width: 425px;
+  height: 270px;
+  background: #000000;
+  opacity: 0.1;
+
+  border-radius: 20px;
+  clip-path: ellipse(243px 186px at -10px 345px);
+  z-index: 1;
+}
+
+.shadow-xl {
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+.radius-xl {
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
