@@ -13,56 +13,63 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
 </head>
 <body>
+  <header>
+    <h1>Single page <br/>Forma de pagmento</h1>
+  </header>
 
   <main>
     <div class="content">
-      <section class="section-holder-information">  
+      <section class="section-credit-card">
+        <div class="card card-bg--type-1 radius-xl shadow-xl m-auto">
+          <div class="card-ellipse-top"></div>
+          <div class="card-ellipse-bottom"></div>
+          <div class="card-name">Mastercard</div>
+          <div class="card-logo"><img src="./assets/mastercard_logo.png" alt="Logo cartão de crédito"></div>
+          <div class="card-number">0000 0000 0000 0000</div>
+          <div class="card-holder">JAIME BARROSO NEVES</div>
+          <div class="card-expiry-date">09/25</div>
+        </div>
+      </section>    
+
+      <section class="section-holder-information m-auto">  
         <!-- BEGIN card-number --> 
         <div>
           <label for="card-number">Número do cartão</label>
-          <input type="text" id="card-number" class="input radius-xl">
+          <input type="text" id="card-number" class="input radius">
         </div>
         <!-- END card-number -->
       
         <!-- BEGIN card-holder-name -->
         <div>
           <label for="holder-name">Nome do titular</label>
-          <input type="text" id="holder-name" class="input radius-xl">
+          <input type="text" id="holder-name" class="input radius">
         </div>
         <!-- END card-holder-name -->
 
         <!-- BEGIN row -->
         <div class="row">
+
           <!-- BEGIN column -->
-          <div class="column">
-            <div>
+          <div class="flex-container">
+            <div class="flex-item mr-3">
               <label for="card-expiring-date">Validade</label>
-              <input type="text" id="card-expiring-date" class="input radius-xl">
+              <input type="text" id="card-expiring-date" class="input radius">
             </div>
-          </div>
-          <!-- END column -->
-          <!-- BEGIN column -->
-          <div class="column">
-            <div>
+            <div class="flex-item ml-3">
               <label for="card-security-code">Código de segurança</label>
-              <input type="text" id="card-security-code" class="input radius-xl">
+              <input type="text" id="card-security-code" class="input radius">
             </div>
-          </div>
-          <!-- END column -->
+          </div>            
+          <!-- END column --> 
+
         </div>
         <!-- END row -->
-      </section>
-      <section class="section-credit-card">
-       
-        <div class="card card-bg--type-1 radius-xl shadow-xl">
-          <div class="ellipse-top"></div>
-          <div class="ellipse-bottom"></div>
-          <div class="card-name">Mastercard</div>
-          <div class="card-logo"><img src="./assets/mastercard_logo.png" alt="Logo cartão de crédito"></div>
-          <div class="card-number">6011 0009 9013 9424</div>
-          <div class="card-holder">JAIME BARROSO NEVES</div>
-          <div class="card-expiry-date">09/25</div>
+
+        <div class="card-themes">
+          <div class="card-bg--type-1 radius-m shadow"></div>
+          <div class="card-bg--type-2 radius-m shadow"></div>
         </div>
+
       </section>
     </div>
   </main>
