@@ -23,6 +23,35 @@ body {
   font-size: var(--body-font-size);
 }
 
+header {
+  background: #F2F2F2;
+  padding-top: 1.2rem;
+}
+
+header h1 {
+  text-align: center;
+  padding-bottom: 15rem;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+.navbar-brand {
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
 main {
   margin: 0 auto;
   position: relative;
@@ -31,17 +60,6 @@ main {
   -webkit-border-radius: var(--base-border-radius);
   -moz-border-radius: var(--base-border-radius);
   border-radius: var(--base-border-radius);
-}
-
-header {
-  background: #F2F2F2;
-  padding-top: 2rem;
-}
-
-header h1 {
-  text-align: center;
-  padding-bottom: 15rem;
-  font-size: 2.5rem;
 }
 
 .content {
@@ -143,7 +161,6 @@ header h1 {
   height: 270px;
   background: #000000;
   opacity: 0.1;
-
   border-radius: 20px;
   clip-path: ellipse(243px 186px at 430px -70px);
   z-index: 1;
@@ -155,7 +172,6 @@ header h1 {
   height: 270px;
   background: #000000;
   opacity: 0.1;
-
   border-radius: 20px;
   clip-path: ellipse(243px 186px at -10px 345px);
   z-index: 1;
