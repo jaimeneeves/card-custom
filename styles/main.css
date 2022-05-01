@@ -112,6 +112,9 @@ main {
   position: relative;
   width: 425px;
   height: 270px;
+
+  -webkit-animation: animateCard 1s ease-in-out infinite alternate;
+          animation: animateCard 1s ease-in-out infinite alternate;
 }
 
 .card-name {
@@ -298,4 +301,18 @@ main {
 }
 .ml-5 {
   margin-left: 3rem !important;
+}
+
+@-webkit-keyframes animateCard {
+  to {
+    -webkit-transform: translate3d(0px, -10px, 0px) rotateX(0deg) rotateZ(0deg);
+            transform: translate3d(0px, -10px, 0px) rotateX(0deg) rotateZ(0deg);
+  }
+}
+
+@keyframes animateCard {
+  to {
+    -webkit-transform: translate3d(0px, -10px, 0px) rotateX(0deg) rotateZ(0deg);
+            transform: translate3d(0px, -10px, 0px) rotateX(0deg) rotateZ(0deg);
+  }
 }
