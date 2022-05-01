@@ -8,3 +8,8 @@
 - [x] Adicionando/removendo nomes de classes de um elemento DOM
 - [x] Diferença entre `currentTarget` e `target`
 - [x] Template Strings
+
+## CSS
+
+- [x] Transform Property
+- [x] Animation Property
