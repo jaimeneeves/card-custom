@@ -112,7 +112,9 @@ main {
   position: relative;
   width: 425px;
   height: 270px;
+}
 
+.card--animation {
   -webkit-animation: animateCard 1s ease-in-out infinite alternate;
           animation: animateCard 1s ease-in-out infinite alternate;
 }
@@ -178,6 +180,18 @@ main {
   border-radius: 20px;
   clip-path: ellipse(243px 186px at -10px 345px);
   z-index: 1;
+}
+
+.card-bg {
+  position: absolute;
+  width: 425px;
+  height: 270px;
+
+}
+
+.card-bg--animation {
+  -webkit-animation: animateBg 0.5s linear forwards;
+          animation: animateBg 0.5s linear forwards;
 }
 
 .card-bg--type-1 {
@@ -303,6 +317,33 @@ main {
 .ml-5 {
   margin-left: 3rem !important;
 }
+
+@-webkit-keyframes animateBg {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes animateBg {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+  }
+}
+
 
 @-webkit-keyframes animateCard {
   to {
