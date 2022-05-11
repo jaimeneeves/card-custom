@@ -1,3 +1,7 @@
+# Aprendendo HTML, CSS e JavaScript
+
+Esse repositório foi criado com o objetivo de criar aplicações somente em HTML, CSS e JavaScript para que possamos estudá-las e aprender com elas.
+
 ## JavaScript
 - [x] Eventos
 - [x] Usando os métodos forEach
@@ -13,3 +17,9 @@
 
 - [x] Transform Property
 - [x] Animation Property
+
+## Links
+
+Design do projeto no Figma: [Link](https://www.figma.com/file/oDQ3sehgATgbsjd7T914Ku/Credit-Cards?node-id=0%3A1)
+
+Site em produção: [Link](https://card-custom-html.vercel.app)
