@@ -4,7 +4,12 @@ Esse repositório foi criado com o objetivo de criar aplicações somente em HTM
 
 ## Projeto - Cartão Personalizado
 
-![HTML CSS e JavaScript](https://user-images.githubusercontent.com/6599252/167899353-33bfdc5d-d2bf-4eae-9ce6-1094b136030b.png)
+![HTML CSS e JavaScript](https://user-images.githubusercontent.com/6599252/169095459-d5086518-3f9c-4caa-87a5-f4e06692b92b.png)
+
+## Figma
+![Projeto Figma](https://user-images.githubusercontent.com/6599252/169097147-bdc75728-61e8-44ca-9349-d74cace4f00e.png)
+
+[Link do Projeto](https://www.figma.com/file/oDQ3sehgATgbsjd7T914Ku/Credit-Cards?)
 
 ## JavaScript
 - [x] Eventos
