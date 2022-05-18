@@ -1,4 +1,5 @@
 :root {
+  --color-primary: #9B51E0;
   --color-white: #FFFFFF;
   --color-gray-rgb: 0, 0, 0, 0.125; 
   --min-width: 360px;
@@ -11,6 +12,9 @@
 
   --card-width: 425px;
   --card-height: 270px;
+
+  --card-vertical-width: 230px;
+  --card-vertical-height: 300px;
 }
 
 *,
@@ -111,6 +115,83 @@ main {
 
 /* Card */
 
+.card-vertical {
+  position: relative;
+  width: var(--card-vertical-width);
+  height: var(--card-vertical-height);
+}
+
+.card-vertical-logo {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+}
+
+.card-vertical-number {
+  position: absolute;
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 14px;
+  top: 170px;
+  left: 25px;
+}
+
+.card-vertical-chip {
+  position: absolute;
+  left: 25px;
+  top: 235px;
+}
+
+.card-vertical-name {
+  position: absolute;
+  color: var(--color-white);
+  font-weight: 300;
+  font-size: 14px;
+  opacity: 0.54;
+  top: 140px;
+  left: 25px;
+}
+
+.card-vertical-holder {
+  position: absolute;
+  color: var(--color-white);
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  opacity: 0.9;
+}
+
+.card-vertical-ellipse-top {
+  position: absolute;
+  width: var(--card-vertical-width);
+  height: var(--card-vertical-height);
+  background: #000000;
+  opacity: 0.1;
+  border-radius: 20px;
+  clip-path: ellipse(243px 186px at 350px -5px);
+  z-index: 1;
+}
+
+.card-vertical-ellipse-bottom {
+  position: absolute;
+  width: var(--card-vertical-width);
+  height: var(--card-vertical-height);
+  background: #000000;
+  opacity: 0.1;
+  border-radius: 20px;
+  clip-path: ellipse(243px 186px at -110px 293px);
+  z-index: 1;
+}
+
+.card-vertical-expiry-date {
+  position: absolute;
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 12px;
+  top: 246px;
+  left: 150px;
+}
+
 .card {
   position: relative;
   width: var(--card-width);
@@ -191,9 +272,22 @@ main {
   display: none;
 }
 
+.card-vertical-bg {
+  position: absolute;
+  top: 340px;
+  display: block;
+}
+
 .card-bg--animation {
   -webkit-animation: animateBg 0.5s ease-in-out forwards;
           animation: animateBg 0.5s ease-in-out forwards;
+
+  display: block;
+}
+
+.card-vertical-bg--animation {
+  -webkit-animation: animateVerticalBg 0.5s ease-in-out forwards;
+          animation: animateVerticalBg 0.5s ease-in-out forwards;
 
   display: block;
 }
@@ -230,10 +324,53 @@ main {
 }
 
 .card-themes div {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
-  margin: .4rem;
+  margin: .4rem .2rem;
+}
+
+/* Component Button */
+
+.btn-actions {
+  text-align: center;
+}
+
+.btn-actions button + button {
+  padding-left: 3.9rem !important;
+  padding-right: 3.9rem !important;
+}
+
+.button {
+  display: inline-block;
+  font-family: var(--body-font-family);
+  font-weight: 400;
+  text-align: center;
+  white-space: null;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: 3px solid transparent;
+
+  padding: 0.938rem 3.125rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 1.875rem;
+}
+
+.button:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+.button-primary {
+  color: var(--color-white);
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.button-outline-primary {
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 /* Component Input */
@@ -361,6 +498,51 @@ main {
 
     width: var(--card-width);
     height: var(--card-height);
+    display: block;
+    top: 0;
+  }
+}
+
+
+@-webkit-keyframes animateVerticalBg {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+
+    width: var(--card-vertical-width);
+    height: var(--card-vertical-width);
+    display: block;
+    top: 0;
+  }
+}
+
+@keyframes animateVerticalBg {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+
+    width: 50px;
+    height: 50px;
+    display: block;
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+
+    width: var(--card-vertical-width);
+    height: var(--card-vertical-width);
     display: block;
     top: 0;
   }
