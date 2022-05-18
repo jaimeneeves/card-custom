@@ -6,10 +6,10 @@ Esse repositório foi criado com o objetivo de criar aplicações somente em HTM
 
 ![HTML CSS e JavaScript](https://user-images.githubusercontent.com/6599252/169095459-d5086518-3f9c-4caa-87a5-f4e06692b92b.png)
 
-## Figma
-![Projeto Figma](https://user-images.githubusercontent.com/6599252/169097147-bdc75728-61e8-44ca-9349-d74cace4f00e.png)
+### Figma
+![Projeto Figma](https://user-images.githubusercontent.com/6599252/169098200-36d4ead0-cca2-4268-aafe-273b8a4372b1.png)
 
-[Link do Projeto](https://www.figma.com/file/oDQ3sehgATgbsjd7T914Ku/Credit-Cards?)
+[Link do Projeto no Figma](https://www.figma.com/file/oDQ3sehgATgbsjd7T914Ku/Credit-Cards?)
 
 ## JavaScript
 - [x] Eventos
