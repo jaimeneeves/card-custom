@@ -80,7 +80,7 @@ O exemplo abaixo define uma expressão de função, que retorna a soma de dois n
 
 ```js
 let add = function (x, y) {
-	return x + y;
+  return x + y;
 };
 
 console.log(add(10, 20)); // 30
