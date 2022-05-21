@@ -22,6 +22,8 @@ Esse repositório foi criado com o objetivo de criar aplicações somente em HTM
 - [x] Transform Property
 - [x] Animation Property
 
+## Conceitos e Exemplos dos Métodos e Funções Usadas
+
 ### Operador Ternário em JavaScript
 O operador condicional ternário atribui um valor a uma variável com base em uma condição, e é o único operador que recebe três operando.
 
