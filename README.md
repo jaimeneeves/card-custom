@@ -1,6 +1,6 @@
 # Aprendendo HTML, CSS e JavaScript
 
-Esse repositório foi criado com o objetivo de criar aplicações somente em HTML, CSS e JavaScript para que possamos estudá-las e aprender com elas.
+Construindo aplicações com as ferramentas HTML, CSS e JavaScript.
 
 ## Projeto
 
