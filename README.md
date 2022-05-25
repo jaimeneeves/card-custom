@@ -7,6 +7,7 @@ Esse repositório foi criado com o objetivo de criar aplicações somente em HTM
 ![HTML CSS e JavaScript](https://user-images.githubusercontent.com/6599252/169671524-20a26724-5e54-4303-b63e-e3b2cc06c0fc.png)
 
 ## JavaScript
+
 - [x] Eventos
 - [x] Usando os métodos forEach
 - [x] Arrow Functions
@@ -24,7 +25,36 @@ Esse repositório foi criado com o objetivo de criar aplicações somente em HTM
 
 ## Conceitos e Exemplos dos Métodos e Funções Usadas
 
+### Event Listeners em JavaScript
+
+Nessa seção iremos cobrir apenas os recursos mais básicos da definição de event listeners.
+
+Vamos falar em especial do método `addEventListener` que permite configurar funções que são chamadas quando um evento específico ocorrer. Esse manipulador pode ser anexado a um elemento HTML específico para o qual você deseja monitorar eventos, e o elemento pode ter mais de um manipulador anexado.
+
+Aqui está a sintaxe:
+
+```js
+target.addEventListener(event, function, useCapture)
+```
+
+- **target:** Elemento HTML
+- **function:** Função anônima, que recebe o código para execução
+- **useCapture:** Valor padrão `false`
+
+Veja no exemplo abaixo o evento de `click` em um botão:
+
+```js
+const button = document.querySelector('#button')
+
+button.addEventListener('click', e => {
+  console.log(e)
+})
+```
+
+Para configurar um event listener
+
 ### Operador Ternário em JavaScript
+
 O operador condicional ternário atribui um valor a uma variável com base em uma condição, e é o único operador que recebe três operando.
 
 Ele pode ser um substituto para a estrutura condicional *if*, na qual as cláusulas `if` e `else` atribuem valores diferentes ao mesmo campo, por exemplo:
@@ -36,6 +66,7 @@ if (condição)
 else
   resultado = 'algo mais';
 ```
+
 O operador ternário encurta essa instrução *if/else* em uma única instrução, assim:
 
 ```js
@@ -43,6 +74,7 @@ const resultado = (condição) ? 'alguma coisa' : 'algo mais';
 ```
 
 ### Método `forEach` em JavaScript
+
 O método `forEach` é uma das várias maneiras de percorrer arrays. Cada método de iteração tem seus recursos diferentes. Cabe à você decidir qual melhor método para usar.
 
 Considerando que temos o seguinte array:
@@ -99,5 +131,5 @@ let add = (x, y) => { return x + y; };
 
 ## Links
 
-* Design do projeto no Figma: [Link](https://www.figma.com/file/oDQ3sehgATgbsjd7T914Ku/Credit-Cards?node-id=0%3A1)
-* Site em produção: [Link](https://card-custom-html.vercel.app)
+- Design do projeto no Figma: [Link](https://www.figma.com/file/oDQ3sehgATgbsjd7T914Ku/Credit-Cards?node-id=0%3A1)
+- Site em produção: [Link](https://card-custom-html.vercel.app)
