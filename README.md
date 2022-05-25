@@ -8,15 +8,16 @@ Esse repositório foi criado com o objetivo de criar aplicações somente em HTM
 
 ## JavaScript
 
-- [x] Eventos
-- [x] Usando os métodos forEach
-- [x] Arrow Functions
-- [x] Spread Syntax (`...`)
-- [x] Métodos querySelector e querySelectorAll
-- [x] Declarando variáveis com a palavra chave const e let
-- [x] Adicionando/removendo nomes de classes de um elemento DOM
-- [x] Diferença entre `currentTarget` e `target`
-- [x] Template Strings
+- ✔ [Eventos](#event-listeners-em-javascript)
+- ✔ [Operador Ternário](#operador-ternário-em-javascript)
+- ✔ [Usando os métodos forEach](#método-foreach-em-javascript)
+- ✔ [Arrow Functions](#arrow-functions-em-javascript)
+- [] Spread Syntax (`...`)
+- [] Métodos querySelector e querySelectorAll
+- [] Declarando variáveis com a palavra chave const e let
+- [] Adicionando/removendo nomes de classes de um elemento DOM
+- [] Diferença entre `currentTarget` e `target`
+- [] Template Strings
 
 ## CSS
 
