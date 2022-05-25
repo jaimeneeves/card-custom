@@ -12,7 +12,7 @@ Esse repositório foi criado com o objetivo de criar aplicações somente em HTM
 - ✔ [Operador Ternário](#operador-ternário-em-javascript)
 - ✔ [Usando os métodos forEach](#método-foreach-em-javascript)
 - ✔ [Arrow Functions](#arrow-functions-em-javascript)
-- [] Spread Syntax (`...`)
+- :white_check_mark: Spread Syntax (`...`)
 - [] Métodos querySelector e querySelectorAll
 - [] Declarando variáveis com a palavra chave const e let
 - [] Adicionando/removendo nomes de classes de um elemento DOM
