@@ -51,8 +51,6 @@ button.addEventListener('click', e => {
 })
 ```
 
-Para configurar um event listener
-
 ### Operador Ternário em JavaScript
 
 O operador condicional ternário atribui um valor a uma variável com base em uma condição, e é o único operador que recebe três operando.
