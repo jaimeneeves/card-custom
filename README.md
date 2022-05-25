@@ -8,16 +8,16 @@ Esse repositório foi criado com o objetivo de criar aplicações somente em HTM
 
 ## JavaScript
 
-- :heavy_check_mark: [Eventos](#event-listeners-em-javascript)
-- :heavy_check_mark: [Operador Ternário](#operador-ternário-em-javascript)
-- :heavy_check_mark: [Usando os métodos forEach](#método-foreach-em-javascript)
-- :heavy_check_mark: [Arrow Functions](#arrow-functions-em-javascript)
-- :white_check_mark: Spread Syntax (`...`)
-- :white_check_mark: Métodos querySelector e querySelectorAll
-- :white_check_mark: Declarando variáveis com a palavra chave const e let
-- :white_check_mark: Adicionando/removendo nomes de classes de um elemento DOM
-- :white_check_mark: Diferença entre `currentTarget` e `target`
-- :white_check_mark: Template Strings
+:heavy_check_mark: [Eventos](#event-listeners-em-javascript)
+:heavy_check_mark: [Operador Ternário](#operador-ternário-em-javascript)
+:heavy_check_mark: [Usando os métodos forEach](#método-foreach-em-javascript)
+:heavy_check_mark: [Arrow Functions](#arrow-functions-em-javascript)
+:white_check_mark: Spread Syntax (`...`)
+:white_check_mark: Métodos querySelector e querySelectorAll
+:white_check_mark: Declarando variáveis com a palavra chave const e let
+:white_check_mark: Adicionando/removendo nomes de classes de um elemento DOM
+:white_check_mark: Diferença entre `currentTarget` e `target`
+:white_check_mark: Template Strings
 
 ## CSS
 
