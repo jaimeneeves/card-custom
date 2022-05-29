@@ -12,7 +12,7 @@ Construindo aplicações com as ferramentas HTML, CSS e JavaScript.
 - :heavy_check_mark: [Operador Ternário](#operador-ternário-em-javascript)
 - :heavy_check_mark: [Usando os métodos forEach](#método-foreach-em-javascript)
 - :heavy_check_mark: [Arrow Functions](#arrow-functions-em-javascript)
-- :white_check_mark: [Spread Syntax (`...`)](#spread-syntax-em-javaScript)
+- :heavy_check_mark: [Spread Syntax (`...`)](#spread-syntax-em-javaScript)
 - :white_check_mark: Métodos querySelector e querySelectorAll
 - :white_check_mark: Declarando variáveis com a palavra chave const e let
 - :white_check_mark: Adicionando/removendo nomes de classes de um elemento DOM
