@@ -12,7 +12,7 @@ Construindo aplicações com as ferramentas HTML, CSS e JavaScript.
 - :heavy_check_mark: [Operador Ternário](#operador-ternário-em-javascript)
 - :heavy_check_mark: [Usando os métodos forEach](#método-foreach-em-javascript)
 - :heavy_check_mark: [Arrow Functions](#arrow-functions-em-javascript)
-- :white_check_mark: Spread Syntax (`...`)
+- :white_check_mark: [Spread Syntax (`...`)](#spread-syntax-em-javaScript)
 - :white_check_mark: Métodos querySelector e querySelectorAll
 - :white_check_mark: Declarando variáveis com a palavra chave const e let
 - :white_check_mark: Adicionando/removendo nomes de classes de um elemento DOM
@@ -126,6 +126,54 @@ Se você usar a sintaxe de bloco, precisará acrescentar a palavra-chave `return
 
 ```js
 let add = (x, y) => { return x + y; };
+```
+
+### Spread Syntax Em JavaScript
+
+O [operador spread](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Spread_syntax) foi adicionado ao JavaScript a partir do ES6. Ele é muito útil para trabalhar com arrays. Com ele podemos adicionar itens a arrays, combinar arrays ou objetos e espalhar um array nos argumentos de uma função.
+
+#### Adicionando item a uma lista:
+
+```js
+  const frutas = [`maça`, `abacate`, `laranja`];
+    
+  const maisFrutas = [`melancia`, `abacaxi`, `mamão`, ...frutas];
+
+  console.info(maisFrutas);
+```
+
+Resultado:
+
+```js
+['melancia', 'abacaxi', 'mamão', 'maça', 'abacate', 'laranja']
+```
+
+#### Combinando Objetos:
+
+```js
+  const objetoUm = {nome: `Jaime`};
+  
+  const objetoDois = {sobrenome: `Neves`};
+
+  const objetoTres = { ...objetoUm, ...objetoDois, cargo: `Front-End`};
+
+  console.log(objetoTres);
+```
+
+Resultado:
+
+```js
+{nome: 'Jaime', sobrenome: 'Neves', cargo: 'Front-End'}
+```
+
+#### Usando como argumento de uma função:
+
+```js
+const numbers = [37, -17, 7, 0];
+
+console.log(Math.min(numbers)) // NaN
+console.log(Math.min(...numbers)) // -17
+console.log(Math.max(...numbers)) // 37
 ```
 
 ## Links
